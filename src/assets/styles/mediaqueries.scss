@@ -1,0 +1,29 @@
+$xs: 321px;
+$sm: 481px;
+$md: 769px;
+$lg: 1024px;
+
+@mixin xs { // 0 to 320
+    @media (min-width: #{0}) and (max-width: #{$xs - 1px}) {
+        @content;
+    }
+}
+
+@mixin sm { // 321 to 480
+    @media (min-width: #{$xs}) and (max-width: #{$sm - 1px}) {
+        @content;
+    }
+}
+
+@mixin md { 
+    @media (min-width: #{$sm}) and (max-width: #{$md - 1px}) {
+        @content;
+    }
+}
+
+@mixin lg { 
+    @media (min-width: #{$md}) and (max-width: #{$lg - 1px}) {
+        @content;
+    }
+}
+
