@@ -5,56 +5,67 @@ $font-large: 25px;
 
 @font-face {
     font-family: 'Avenir-Black';
-    src: url('/static/fonts/AvenirLTPro-Black.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-Black.woff2') format('woff2'), 
+         url('/static/fonts/AvenirLTPro-Black.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-BlackOblique';
-    src: url('/static/fonts/AvenirLTPro-BlackOblique.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-BlackOblique.woff2') format('woff2'), 
+         url('/static/fonts/AvenirLTPro-BlackOblique.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-Book';
-    src: url('/static/fonts/AvenirLTPro-Book.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-Book.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-Book.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-BookOblique';
-    src: url('/static/fonts/AvenirLTPro-BookOblique.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-BookOblique.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-BookOblique.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-Heavy';
-    src: url('/static/fonts/AvenirLTPro-Heavy.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-Heavy.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-Heavy.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-HeavyOblique';
-    src: url('/static/fonts/AvenirLTPro-HeavyOblique.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-HeavyOblique.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-HeavyOblique.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-Light';
-    src: url('/static/fonts/AvenirLTPro-Light.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-Light.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-Light.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-LightOblique';
-    src: url('/static/fonts/AvenirLTPro-LightOblique.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-LightOblique.woff2') format('otf'),
+         url('/static/fonts/AvenirLTPro-LightOblique.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-Medium';
-    src: url('/static/fonts/AvenirLTPro-Medium.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-Medium.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-Medium.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Avenir-MediumOblique';
-    src: url('/static/fonts/AvenirLTPro-MediumOblique.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-MediumOblique.woff2') format('woff2'),
+    url('/static/fonts/AvenirLTPro-MediumOblique.otf') format('otf');
 }
 
 
 @font-face {
     font-family: 'Avenir-Roman';
-    src: url('/static/fonts/AvenirLTPro-Roman.otf') format('otf');
+    src: url('/static/fonts/AvenirLTPro-Roman.woff2') format('woff2'),
+         url('/static/fonts/AvenirLTPro-Roman.otf') format('otf');
 }
