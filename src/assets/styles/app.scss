@@ -1,17 +1,7 @@
-@import 'typography.scss', 'mediaqueries.scss';
+@import 'colors.scss', 'typography.scss', 'mediaqueries.scss';
 
-.font {
-    font-family: $font-family;
-    font-size: $font-large;
-    @include xs {
-        font-size: $font-small;
-    }
-
-    @include sm {
-        font-size: 29px;
-    }
-
-    @include md {
-        font-size: 23px;
-    }
+#app {
+    background-color:#fff;
+    font-family: 'Avenir-Book', sans-serif;
+    color: $black;
 }
